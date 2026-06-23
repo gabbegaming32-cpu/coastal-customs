@@ -122,7 +122,9 @@ function productCard(p){
     </div>
   </article>`;
 }
-window.addCart = id => { cart.push(id); saveCart(); alert("Added to cart"); };
+window.addCart = () => {
+  alert("Purchasing is temporarily unavailable while Coastal Customs is under development.");
+};
 
 function productsPage(){
   shell(`<main class="wrap"><section class="hero"><div class="eyebrow">MARKETPLACE</div><h1>Products</h1><p>Browse Coastal Customs development resources.</p></section><section class="grid3">${products.map(productCard).join("")}</section></main>`);
@@ -137,7 +139,9 @@ function cartPage(){
   const total = items.reduce((n,p)=>n+Number(p.price),0);
   shell(`<main class="wrap"><section class="hero"><div class="eyebrow">YOUR CART</div><h1>Shopping Cart</h1><p>Review products and checkout securely.</p></section><section class="grid2"><div class="panel box">${items.length ? items.map((p,i)=>`<div class="listitem space"><div><b>${p.name}</b><br><span class="muted">${money(p.price)}</span></div><button class="btn small" onclick="cart.splice(${i},1);saveCart();route()">REMOVE</button></div>`).join("") : `<h2>Your cart is empty</h2><p class="muted">Add some products first.</p>`}</div><div class="panel box"><div class="eyebrow">CHECKOUT</div><h2>Your Order</h2><div class="space"><span>Subtotal</span><b>${money(total)}</b></div><br><button class="btn primary" onclick="checkout(false)">MOCK CHECKOUT</button><button class="btn" onclick="checkout(true)">PAY WITH BALANCE</button><p class="muted">Stripe and SellAuth can be connected after the design is approved.</p></div></section></main>`);
 }
-window.checkout = async useBalance => {
+window.checkout = async () => {
+  alert("Purchasing is temporarily unavailable while Coastal Customs is under development.");
+};
   try {
     const order = await api("/api/checkout/mock",{method:"POST",body:JSON.stringify({items:cart,useBalance})});
     cart=[]; saveCart();
@@ -181,7 +185,9 @@ window.dashTab = tab => {
     $("ticketForm").onsubmit = async e => { e.preventDefault(); await api("/api/tickets",{method:"POST",body:JSON.stringify(Object.fromEntries(new FormData(e.target)))}); me=await api("/api/me"); dashTab("tickets"); };
   }
 };
-window.topup = async a => { await api("/api/wallet/mock-topup",{method:"POST",body:JSON.stringify({amount:a})}); me=await api("/api/me"); dashTab("balance"); };
+window.topup = async () => {
+  alert("Balance top ups are temporarily disabled while Coastal Customs is under development.");
+};
 window.openTicket = id => {
   const t=me.tickets.find(x=>x.id===id);
   $("ticketChat").innerHTML = `<div class="panel section"><h2>${t.subject}</h2><div class="messages" id="msgs">${t.messages.map(m=>`<div class="msg ${m.from}"><b>${m.name}</b><br>${m.text}</div>`).join("")}</div><form id="replyForm" class="row"><input id="replyInput" placeholder="Reply"><button class="btn primary">SEND</button></form></div>`;
