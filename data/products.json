@@ -1,0 +1,44 @@
+[
+  {
+    "id": "advanced-admin-system",
+    "name": "Advanced Admin System",
+    "category": "Systems",
+    "price": 24.99,
+    "badge": "Bestseller",
+    "status": "published",
+    "featured": true,
+    "images": [],
+    "short": "Professional moderation, logs, roles, and permissions.",
+    "description": "A polished Roblox admin system made for serious communities. Includes permission groups, logging, moderation tools, clean configuration and a premium UI style.",
+    "delivery": "Add private download link or delivery instructions here.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "modern-shop-system",
+    "name": "Modern Shop System",
+    "category": "Systems",
+    "price": 19.99,
+    "badge": "New",
+    "status": "published",
+    "featured": true,
+    "images": [],
+    "short": "Clean gamepass-ready shop interface and backend.",
+    "description": "A modern Roblox shop system with clean product cards, responsive UI, product configuration and easy setup.",
+    "delivery": "Add private download link or delivery instructions here.",
+    "version": "1.0.0"
+  },
+  {
+    "id": "dashboard-ui-pack",
+    "name": "Dashboard UI Pack",
+    "category": "UI",
+    "price": 14.99,
+    "badge": "UI Pack",
+    "status": "published",
+    "featured": true,
+    "images": [],
+    "short": "Dark coastal-blue interface pack for Roblox projects.",
+    "description": "A professional UI pack with dashboard panels, buttons, cards, dialogs and navigation components.",
+    "delivery": "Add private download link or delivery instructions here.",
+    "version": "1.0.0"
+  }
+]

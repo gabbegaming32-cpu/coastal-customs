@@ -1,0 +1,13 @@
+[
+  {
+    "id": "r0_mBNkkoJxj",
+    "name": "test",
+    "email": "vantatrump@gmail.com",
+    "passwordHash": "$2a$10$QncEaAlNXVSVbxPVIGcU4OdGmqWgjK8WS7zZMNfEpXqjnL7gCurPC",
+    "role": "customer",
+    "balance": 1255766357,
+    "createdAt": "2026-06-23T14:10:32.956Z",
+    "banned": false,
+    "discord": null
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "TX-S4-LNTWB",
+    "userId": "r0_mBNkkoJxj",
+    "type": "wallet_topup",
+    "description": "Mock wallet top up",
+    "amount": 100,
+    "createdAt": "2026-06-23T14:13:44.546Z"
+  },
+  {
+    "id": "TX-ZOLLHGRN",
+    "userId": "r0_mBNkkoJxj",
+    "type": "wallet_topup",
+    "description": "Mock wallet top up",
+    "amount": 100,
+    "createdAt": "2026-06-23T14:13:44.335Z"
+  },
+  {
+    "id": "TX-LDTVWDN5",
+    "userId": "r0_mBNkkoJxj",
+    "type": "wallet_topup",
+    "description": "Mock wallet top up",
+    "amount": 100,
+    "createdAt": "2026-06-23T14:13:44.134Z"
+  },
+  {
+    "id": "TX-OJBHBLLI",
+    "userId": "r0_mBNkkoJxj",
+    "type": "wallet_topup",
+    "description": "Mock wallet top up",
+    "amount": 100,
+    "createdAt": "2026-06-23T14:13:43.984Z"
+  },
+  {
+    "id": "TX-6PG07KOU",
+    "userId": "r0_mBNkkoJxj",
+    "type": "wallet_topup",
+    "description": "Mock wallet top up",
+    "amount": 100,
+    "createdAt": "2026-06-23T14:13:43.819Z"
+  },
+  {
+    "id": "TX-HF1UMY4W",
+    "userId": "r0_mBNkkoJxj",
+    "type": "wallet_topup",
+    "description": "Mock wallet top up",
+    "amount": 100,
+    "createdAt": "2026-06-23T14:13:43.648Z"
+  },
+  {
+    "id": "TX-CEIRCZKZ",
+    "userId": "r0_mBNkkoJxj",
+    "type": "wallet_topup",
+    "description": "Mock wallet top up",
+    "amount": 100,
+    "createdAt": "2026-06-23T14:13:43.491Z"
+  },
+  {
+    "id": "TX-ZYX0JBZF",
+    "userId": "r0_mBNkkoJxj",
+    "type": "wallet_topup",
+    "description": "Mock wallet top up",
+    "amount": 100,
+    "createdAt": "2026-06-23T14:13:43.315Z"
+  },
+  {
+    "id": "TX-K-DIV4BX",
+    "userId": "r0_mBNkkoJxj",
+    "type": "wallet_topup",
+    "description": "Mock wallet top up",
+    "amount": 100,
+    "createdAt": "2026-06-23T14:13:43.166Z"
+  },
+  {
+    "id": "TX-FX80XBP-",
+    "userId": "r0_mBNkkoJxj",
+    "type": "staff_adjustment",
+    "description": "Staff balance adjustment",
+    "amount": -1000000,
+    "createdAt": "2026-06-23T14:12:04.277Z"
+  },
+  {
+    "id": "TX-B13N6I0G",
+    "userId": "r0_mBNkkoJxj",
+    "type": "staff_adjustment",
+    "description": "Staff balance adjustment",
+    "amount": 1,
+    "createdAt": "2026-06-23T14:11:57.671Z"
+  },
+  {
+    "id": "TX-BLQ7SV1K",
+    "userId": "r0_mBNkkoJxj",
+    "type": "staff_adjustment",
+    "description": "Staff balance adjustment",
+    "amount": 1256765456,
+    "createdAt": "2026-06-23T14:11:54.669Z"
+  }
+]

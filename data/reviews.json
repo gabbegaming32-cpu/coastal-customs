@@ -1,0 +1,16 @@
+[
+  {
+    "id": "R-1",
+    "name": "RealDev",
+    "rating": 5,
+    "text": "Clean assets and fast support. Looks professional.",
+    "status": "approved"
+  },
+  {
+    "id": "R-2",
+    "name": "BuilderKid",
+    "rating": 5,
+    "text": "The UI systems are easy to use and actually polished.",
+    "status": "approved"
+  }
+]

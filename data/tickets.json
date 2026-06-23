@@ -1,0 +1,35 @@
+[
+  {
+    "id": "T-C8EUWKRX",
+    "userId": "r0_mBNkkoJxj",
+    "name": "test",
+    "email": "vantatrump@gmail.com",
+    "orderId": "tu54ty",
+    "subject": "tesat",
+    "status": "open",
+    "priority": "urgent",
+    "assignedTo": "",
+    "internalNotes": [],
+    "createdAt": "2026-06-23T14:11:04.107Z",
+    "messages": [
+      {
+        "from": "customer",
+        "name": "test",
+        "text": "tA67654R",
+        "time": "2026-06-23T14:11:04.108Z"
+      },
+      {
+        "from": "customer",
+        "name": "test",
+        "text": "HELLO",
+        "time": "2026-06-23T14:11:09.376Z"
+      },
+      {
+        "from": "staff",
+        "name": "Coastal Support",
+        "text": "HI MY NAME IS VANTA",
+        "time": "2026-06-23T14:12:17.659Z"
+      }
+    ]
+  }
+]
