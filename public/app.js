@@ -142,14 +142,7 @@ function cartPage(){
 window.checkout = async () => {
   alert("Purchasing is temporarily unavailable while Coastal Customs is under development.");
 };
-  try {
-    const order = await api("/api/checkout/mock",{method:"POST",body:JSON.stringify({items:cart,useBalance})});
-    cart=[]; saveCart();
-    alert("Order created: " + order.id);
-    me = await api("/api/me");
-    go("/dashboard");
-  } catch(e){ alert(e.message); }
-};
+
 
 function authModal(){
   const modal = $("modal"), box = $("modalbox");
